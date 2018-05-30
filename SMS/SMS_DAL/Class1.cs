@@ -10,5 +10,6 @@ namespace SMS_DAL
     {
         public int MyProperty { get; set; }
         public int Datas { get; set; }
+        public string newProperty {get; set;}
     }
 }
