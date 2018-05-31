@@ -82,6 +82,7 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Custom\custom.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\metisMenu.min.css" />
     <Content Include="Content\sb-admin-2.css" />
@@ -148,9 +149,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\UserTypeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\UserType\UserTypeModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -199,6 +202,7 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\UserType\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -208,8 +212,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SMS_BAL\SMS_BAL.csproj">
+      <Project>{1fdd4105-6a75-4023-aea7-659d04d1e36d}</Project>
+      <Name>SMS_BAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SMS_Entities\SMS_Entities.csproj">
+      <Project>{0fb52b84-e9f4-4d48-bf0e-6dfdbbeea947}</Project>
+      <Name>SMS_Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
