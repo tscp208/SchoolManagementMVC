@@ -153,11 +153,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="Models\UserType\UserTypeModel.cs" />
-=======
     <Compile Include="Models\TestClass.cs" />
->>>>>>> 681fa68e46e1c9b7b4157ca677c3b82226d4677f
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -216,7 +213,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-<<<<<<< HEAD
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SMS_BAL\SMS_BAL.csproj">
@@ -227,9 +223,7 @@
       <Project>{0fb52b84-e9f4-4d48-bf0e-6dfdbbeea947}</Project>
       <Name>SMS_Entities</Name>
     </ProjectReference>
-=======
     <Folder Include="Controllers\" />
->>>>>>> 681fa68e46e1c9b7b4157ca677c3b82226d4677f
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
