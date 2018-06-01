@@ -39,8 +39,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserTypeDAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SMS_Common\SMS_Common.csproj">
+      <Project>{23753662-23bd-435c-876b-fe76438a0308}</Project>
+      <Name>SMS_Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SMS_Entities\SMS_Entities.csproj">
+      <Project>{0fb52b84-e9f4-4d48-bf0e-6dfdbbeea947}</Project>
+      <Name>SMS_Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
