@@ -131,9 +131,21 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+<<<<<<< HEAD
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+=======
+    <Content Include="Scripts\Custom\UserType\Index.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <None Include="Scripts\jquery-1.8.0.intellisense.js" />
+    <Content Include="Scripts\jquery-1.8.0.js" />
+    <Content Include="Scripts\jquery-1.8.0.min.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+>>>>>>> Jani_branch
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
@@ -145,7 +157,13 @@
     <Content Include="Scripts\sb-admin-2.js" />
     <Content Include="Scripts\sb-admin-2.min.js" />
     <None Include="Scripts\_references.js" />
+<<<<<<< HEAD
     <Content Include="Web.config" />
+=======
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+>>>>>>> Jani_branch
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -157,8 +175,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
+=======
+    <Content Include="Views\web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+>>>>>>> Jani_branch
     <Content Include="Content\vendor\bootstrap-social\bootstrap-social.less" />
     <Content Include="Content\vendor\bootstrap-social\bootstrap-social.scss" />
     <Content Include="Content\vendor\bootstrap\fonts\glyphicons-halflings-regular.eot" />
@@ -203,11 +230,23 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\UserType\Index.cshtml" />
+<<<<<<< HEAD
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
+=======
+    <Content Include="Views\UserType\_AddUserType.cshtml" />
+    <Content Include="Views\UserType\_UserTypeGrid.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+>>>>>>> Jani_branch
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -222,7 +261,10 @@
       <Project>{0fb52b84-e9f4-4d48-bf0e-6dfdbbeea947}</Project>
       <Name>SMS_Entities</Name>
     </ProjectReference>
+<<<<<<< HEAD
     <Folder Include="Controllers\" />
+=======
+>>>>>>> Jani_branch
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

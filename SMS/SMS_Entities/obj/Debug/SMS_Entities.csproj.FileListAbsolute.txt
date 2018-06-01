@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\Projects\Web\Demo\MVC_DEMO\SMS\SMS_Entities\bin\Debug\SMS_Entities.dll
 D:\Projects\Web\Demo\MVC_DEMO\SMS\SMS_Entities\bin\Debug\SMS_Entities.pdb
 D:\Projects\Web\Demo\MVC_DEMO\SMS\SMS_Entities\obj\Debug\SMS_Entities.csprojResolveAssemblyReference.cache
@@ -8,3 +9,15 @@ D:\Samples\MVC\SchoolManagementMVC\SMS\SMS_Entities\bin\Debug\SMS_Entities.pdb
 D:\Samples\MVC\SchoolManagementMVC\SMS\SMS_Entities\obj\Debug\SMS_Entities.csprojResolveAssemblyReference.cache
 D:\Samples\MVC\SchoolManagementMVC\SMS\SMS_Entities\obj\Debug\SMS_Entities.dll
 D:\Samples\MVC\SchoolManagementMVC\SMS\SMS_Entities\obj\Debug\SMS_Entities.pdb
+=======
+D:\Projects\Web\Demo\MVC_DEMO\SMS\SMS_Entities\bin\Debug\SMS_Entities.dll
+D:\Projects\Web\Demo\MVC_DEMO\SMS\SMS_Entities\bin\Debug\SMS_Entities.pdb
+D:\Projects\Web\Demo\MVC_DEMO\SMS\SMS_Entities\obj\Debug\SMS_Entities.csprojResolveAssemblyReference.cache
+D:\Projects\Web\Demo\MVC_DEMO\SMS\SMS_Entities\obj\Debug\SMS_Entities.dll
+D:\Projects\Web\Demo\MVC_DEMO\SMS\SMS_Entities\obj\Debug\SMS_Entities.pdb
+D:\Samples\MVC\SchoolManagementMVC\SMS\SMS_Entities\bin\Debug\SMS_Entities.dll
+D:\Samples\MVC\SchoolManagementMVC\SMS\SMS_Entities\bin\Debug\SMS_Entities.pdb
+D:\Samples\MVC\SchoolManagementMVC\SMS\SMS_Entities\obj\Debug\SMS_Entities.csprojResolveAssemblyReference.cache
+D:\Samples\MVC\SchoolManagementMVC\SMS\SMS_Entities\obj\Debug\SMS_Entities.dll
+D:\Samples\MVC\SchoolManagementMVC\SMS\SMS_Entities\obj\Debug\SMS_Entities.pdb
+>>>>>>> Jani_branch

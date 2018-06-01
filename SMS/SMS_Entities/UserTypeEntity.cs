@@ -15,5 +15,18 @@ namespace SMS_Entities
         public string UserTypeName { get; set; }
 
         public string UserTypeDesc { get; set; }
+<<<<<<< HEAD
+=======
+
+        public int CreatedBy { get; set; }
+
+        public string CreatedOn { get; set; }
+
+        public int ModifiedBy { get; set; }
+
+        public string ModifiedOn { get; set; }
+
+        public bool IsDeleted { get; set; }
+>>>>>>> Jani_branch
     }
 }
