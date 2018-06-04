@@ -13,7 +13,7 @@ namespace SMS_DAL
 {
     public class UsersDAL
     {
-        DataTable dt = new DataTable();
+        DataTable dt;
 
         /// <summary>
         /// 
@@ -21,13 +21,14 @@ namespace SMS_DAL
         /// <returns></returns>
         public List<UsersEntity> GetUsers()
         {
+            dt = new DataTable();
             List<UsersEntity> lstUsers = new List<UsersEntity>();
             try
             {
                 using (SqlConnection con = new SqlConnection(Connection.dbConnection))
                 {
                     con.Open();
-                    using (SqlCommand cmd = new SqlCommand("sp_GetUsers", con))
+                    using (SqlCommand cmd = new SqlCommand("usp_GetUsers", con))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
                         using (SqlDataAdapter da = new SqlDataAdapter(cmd))
@@ -48,7 +49,7 @@ namespace SMS_DAL
                                 State = Convert.ToString(item["State"]),
                                 City = Convert.ToString(item["City"]),
                                 ContactNo = Convert.ToString(item["ContactNo"]),
-                                EmailAddress = Convert.ToString(item["EmailAddress"]),
+                                EmailAddress = Convert.ToString(item["EmailAdd"]),
                                 DOB = Convert.ToString(item["DOB"]),
                                 UserTypeID = Convert.ToInt32(item["UserTypeID"]),
                                 UserTypeName = Convert.ToString(item["UserTypeName"])
@@ -65,6 +66,26 @@ namespace SMS_DAL
             finally
             {
                 dt = null;
+            }
+        }
+
+        public void InsertUsers()
+        {
+            try
+            {
+                using (SqlConnection con = new SqlConnection(Connection.dbConnection))
+                {
+                    con.Open();
+                    using (SqlCommand cmd = new SqlCommand("",con))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+
             }
         }
 

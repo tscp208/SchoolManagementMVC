@@ -65,7 +65,6 @@ namespace SMS.Models.Users
         [Display(Name = "Contact No.")]
         public string ContactNo { get; set; }
 
-
         public string Email { get; set; }
     }
 }

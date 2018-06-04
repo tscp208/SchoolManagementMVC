@@ -19,20 +19,38 @@ namespace SMS.Controllers
             return View();
         }
 
-        public List<UsersBAL> GetUsers()
+        public ActionResult GetUsers()
         {
-            List<UsersModel> users = new List<UsersModel>();
+            List<UsersViewModel> users = new List<UsersViewModel>();
             List<UsersEntity> userentity = new List<UsersEntity>();
 
             userentity = userBAL.GetUsers();
-            users = userentity.Select(item => new UsersModel
+            users = userentity.Select(item => new UsersViewModel
                                     {
-
+                                        UserID = item.UserID,
+                                        SrNo = item.SrNo,
+                                        UserName = item.UserName,
+                                        FirstName = item.FirstName,
+                                        LastName = item.LastName,
+                                        Address = item.Address,
+                                        Gender = item.Gender,
+                                        State = item.State,
+                                        City = item.City,
+                                        ContactNo = item.ContactNo,
+                                        Email = item.EmailAddress
                                     }
-                ).ToList();
+                                 ).ToList();
+            return PartialView("_GetUsers", users);
 
         }
 
+        public ActionResult InsertUser()
+        {
+            List<UsersViewModel> users = new List<UsersViewModel>();
+            List<UsersEntity> userentity = new List<UsersEntity>();
+
+            return View();
+        }
 
     }
 }
